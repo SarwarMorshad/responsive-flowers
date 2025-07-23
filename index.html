@@ -14,7 +14,7 @@
     </style>
     <title>Fauget Flower Shop</title>
   </head>
-  <body class="mx-5 lg:mx-auto md:max-w-7xl">
+  <body class="mx-5 lg:mx-auto md:max-w-7xl bg-[#f6f8ff]">
     <header>
       <!-- Nav Bar -->
       <nav class="flex justify-between items-center mb-[150px] mt-8 mx-4">
@@ -128,8 +128,8 @@
         <div class="relative">
         <img src="assets/flower-store.png" alt="flower-store" />
     <!-- Trusted Badge -->
-    <img src="assets/trusted-badge.png" alt="trusted-badge"
-         class="hidden md:block absolute -top-18 -right-15 w-[150px] h-[150px]" />
+   <img src="assets/trusted-badge.png" alt="trusted-badge"
+         class="hidden md:block absolute -top-18 -right-15 w-[150px] h-[150px] spin-badge" />
         </div>
         <div class="flex flex-col text-start">
             <h1 class="font-noto-serif font-bold text-[50px] mb-2.5">Flower & Plants <br>Lover</h1>
@@ -181,12 +181,10 @@
         </div>
      </section>
      <!-- !!Subscribe Section -->
-     <section class="font-noto-serif w-full mb-[150px] mx-4">
+     <section class="font-inter w-full mb-[150px] mx-4">
   <div class="relative bg-[url('assets/news-letter-bg.png')] bg-cover bg-center min-h-[500px] flex items-center justify-center">
     <div class="relative z-10 flex flex-col items-center text-center text-white space-y-6 w-full max-w-2xl px-4">
       <h2 class="text-2xl md:text-4xl font-bold">Join the colorful Bunch</h2>
-
-      <!-- Email Input + Button -->
       <div class="flex w-full max-w-xl bg-white rounded overflow-hidden">
         <input type="email" placeholder="Write email" class="flex-grow px-4 py-2 text-black outline-none" />
         <button class="bg-[#E95A08] text-white px-6 py-2">Subscribe</button>
@@ -194,8 +192,42 @@
     </div>
   </div>
 </section>
-
     </main>
-    <footer></footer>
+    <footer class="font-inter py-10 mx-4">
+  <div class=" grid grid-cols-1 md:grid-cols-4 gap-10">
+    <div>
+      <img src="assets/logo.png" alt="Faugei Logo" class="mb-4 w-32">
+      <p class="font-inter text-[rgba(0,0,0,0.5)] text-[14px] font-normal">
+         Experience the joy of nature's beauty in the comfort of your own home.
+      </p>
+    </div>
+    <!-- First Column Links -->
+    <div class="flex flex-col space-y-3 text-gray-700">
+      <a href="#" class="hover:text-black">Home</a>
+      <a href="#" class="hover:text-black">About Us</a>
+      <a href="#" class="hover:text-black">Blog</a>
+      <a href="#" class="hover:text-black">FAQ</a>
+      <a href="#" class="hover:text-black">Contact Us</a>
+    </div>
+
+    <!-- Second Column Links -->
+    <div class="flex flex-col space-y-3 text-gray-700">
+      <a href="#" class="hover:text-black">Features</a>
+      <a href="#" class="hover:text-black">Pricing</a>
+      <a href="#" class="hover:text-black">Privacy Policy</a>
+      <a href="#" class="hover:text-black">Terms of Service</a>
+      <a href="#" class="hover:text-black">Help Center</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex items-start space-x-4 justify-start md:justify-end">
+      <a href="#"><img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-8 h-8"></a>
+      <a href="#"><img src="assets/icon-twitter.png" alt="X (Twitter)" class="w-8 h-8"></a>
+      <a href="#"><img src="assets/icon-facebook.png" alt="Facebook" class="w-8 h-8"></a>
+      <a href="#"><img src="assets/icon-youtube.png" alt="YouTube" class="w-8 h-8"></a>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
