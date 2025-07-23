@@ -6,6 +6,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/364257c701.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
     <title>Faugei Flower Shop</title>
   </head>
   <body class="mx-5 md:mx-[150px]">
@@ -26,7 +32,24 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- Hero Section -->
+      <section class="flex flex-col-reverse md:flex md:flex-row justify-between items-end gap-2.5 mb-[150px]">
+        <div>
+          <h1 class="font-noto-serif text-[65px] font-bold mb-2">
+            ALWAYS
+            <span class="text-[#E95A08]">FRESH FLOWERS</span>
+          </h1>
+          <p class="font-inter text-[rgba(0,0,0,0.5)] text-[14px] font-normal text-justify">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+            exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div>
+          <img src="assets/hero-flower.png" alt="flowers" class="w-[570px] h-auto" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
